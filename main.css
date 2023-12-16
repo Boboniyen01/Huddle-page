@@ -1,0 +1,85 @@
+body{
+    background: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    padding:1rem 0rem 0rem 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3rem ;
+    margin: 32px auto;
+    /* padding: 0rem 5rem 0rem 5rem; */
+    color: white;
+
+}
+ main img{
+width: 100%;
+}
+ .second-section h1{
+    margin: 0px 200px 0px 0px;
+ }
+.second-section p{
+margin: 20px 150px 20px 0px;
+}
+button{
+    width: 10rem;
+    padding: 15px;
+    border-radius: 100px;
+    border: 0px;
+    background-color: white;
+    color: hsl(300, 69%, 71%);
+
+}
+button:active{
+color: white;
+background-color: hsl(300, 69%, 71%);
+transition: background-color 0.2s ease-out ;
+}
+@media (max-width:750px){
+
+    body{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    main{
+        width: 300px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem;
+        margin-left:0.35rem;
+        margin-right:0.35rem;
+        padding:0rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .second-section  {
+        margin-left:2rem;
+        margin: 0rem;
+        display: block;
+        text-align: center;
+    
+    }
+.second-section h1  {
+    margin: 0rem;
+    display: block;
+    text-align: center;
+
+}
+
+.second-section p {
+    text-align: center;
+    margin-right: 0rem;
+    display: block;
+
+}
+
+header img{
+    width:45%;
+}
+
+}
